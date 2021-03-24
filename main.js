@@ -12,7 +12,7 @@
     },
     methods: {
       buttonVue: function() {
-        if (this.inputVue == 'post.png') {
+        if (this.imgVue == 'post.png') {
           this.imgVue= 'ec.jpg'
         } else {
           this.imgVue = 'post.png'
