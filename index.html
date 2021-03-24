@@ -10,10 +10,17 @@
 
         <title></title>
     </head>
-    <body>
-      <div id="rootVue">
-        <h1> {{text}} </h1>
+    <body >
+      <div class="container">
+        <div id="rootVue">
+          <h1> {{ text }} </h1>
+          <button type="button" name="button" @click="buttonVue">non cliccare</button>
+          <input v-model="inputVue" type="text" name="" value="" @change="inpuntFunction">
+          <img v-bind:src="imgVue"   alt="">
+        </div>
+
       </div>
+
       <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 
       <script src="main.js" charset="utf-8"></script>
