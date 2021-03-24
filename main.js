@@ -3,9 +3,10 @@
 
 // Stampare a schermo un messaggio all’interno di un h1, utilizzando i data.
 
-vue app = new Vue (
+ let app1 = new Vue (
   {
     el:'#rootVue',
-    text: 'Hello World'
+    data: {
+      text: 'Hello World'
   }
 );
